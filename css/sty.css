@@ -231,84 +231,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
-
-/* media query for mobile phones porttrait */
-@media only screen and (min-width : 320px) {
-        
-    
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    line-height: 25px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-header .intro-text .intro-sec-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 25px;
-}
-section#contact .form-group textarea.form-control {
-    height: 236px;
-
-}
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 27px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 12px;
-    font-style: italic;
-    font-weight: 300;
-}
-
-    section {
-        padding: 0 0;
-    }
-}
-
-/* media query for lanndscape phone */
-@media only screen and (min-width : 480px) {
-        
-    
-
 header {
     text-align: center;
     color: #fff;
@@ -339,200 +261,27 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-header .intro-text .intro-sec-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 35px;
-}
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 34px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 23px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-
-}
-}
-/* media query for tablets */
-
-@media only screen and (min-width : 768px) {
-        
-    
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: 100%,auto;
-    -o-background-size: 100%,auto;
-
-    -webkit-background-size: 100%,auto !important;
-   
-   /* position: fixed; *
-    top: 0; 
-    left: 0; 
- width: 100%;
-height: 100%; */
-
-}
-
-header .intro-text {
-    padding-top: 125px;
-    padding-bottom: 60px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 32px;
-    font-style: italic;
-    line-height: 32px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-header .intro-text .intro-sec-heading {
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 45px;
-}
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 43px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 65px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-
-}
-}
-@media only screen and (min-width : 1200px) {
-        
-    
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
- width: 100%;
-height: 100%; 
-
-}
-
-header .intro-text {
-    padding-top: 125px;
-    padding-bottom: 60px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 42px;
-    font-style: italic;
-    line-height: 42px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 50px;
 }
 
 header .intro-text .intro-sec-heading {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 50px;
 }
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 53px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 65px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 500;
-}
-
 section#contact .form-group textarea.form-control {
     height: 236px;
 
 }
-}
 
 
 
-/*
-
-
-/* Media Queries for Small Devices Like Tablets 
+/* Media Queries for Small Devices Like Tablets */
 
 @media(min-width:768px) {
 
@@ -656,7 +405,7 @@ section h3.section-subheading {
     
 }
 
-/*Media Queries for Desktops 
+/*Media Queries for Desktops */
 @media(min-width:992px) {
     .timeline>li {
         min-height: 150px;
@@ -736,7 +485,7 @@ aside.clients img {
 
 section#contact {
   background-color: #222;
-   /* background-image: url(../img/map-image.png);
+   /* background-image: url(../img/map-image.png);*/
    margin-left: 0px;
    margin-right:10px;
     background-position: center;

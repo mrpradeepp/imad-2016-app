@@ -1,5 +1,5 @@
 /*!
-
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -231,83 +231,36 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
 
-/* media query for mobile phones porttrait */
-@media only screen and (min-width : 320px) {
-        
-    
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
 
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #22222;
+    }
 
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    line-height: 25px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-header .intro-text .intro-sec-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 25px;
-}
-section#contact .form-group textarea.form-control {
-    height: 236px;
-
-}
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 27px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 12px;
-    font-style: italic;
-    font-weight: 300;
-}
-
-    section {
-        padding: 0 0;
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
     }
 }
-
-/* media query for lanndscape phone */
-@media only screen and (min-width : 480px) {
-        
-    
 
 header {
     text-align: center;
@@ -339,236 +292,22 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-header .intro-text .intro-sec-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 35px;
-}
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 34px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 23px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-
-}
-}
-/* media query for tablets */
-
-@media only screen and (min-width : 768px) {
-        
-    
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: 100%,auto;
-    -o-background-size: 100%,auto;
-
-    -webkit-background-size: 100%,auto !important;
-   
-   /* position: fixed; *
-    top: 0; 
-    left: 0; 
- width: 100%;
-height: 100%; */
-
-}
-
-header .intro-text {
-    padding-top: 125px;
-    padding-bottom: 60px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 32px;
-    font-style: italic;
-    line-height: 32px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-header .intro-text .intro-sec-heading {
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 45px;
-}
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 43px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 65px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-
-}
-}
-@media only screen and (min-width : 1200px) {
-        
-    
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: fixed; 
-    top: 0; 
-    left: 0; 
- width: 100%;
-height: 100%; 
-
-}
-
-header .intro-text {
-    padding-top: 125px;
-    padding-bottom: 60px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 42px;
-    font-style: italic;
-    line-height: 42px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 50px;
 }
 
 header .intro-text .intro-sec-heading {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 50px;
 }
 
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 53px;
-}
-
-section h3.section-subheading {
-    margin-bottom: 65px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 500;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-
-}
-}
-
-
-
-/*
-
-
-/* Media Queries for Small Devices Like Tablets 
 
 @media(min-width:768px) {
-
-    section#contact .form-group textarea.form-control {
-    height: 236px;
-    width:90%;
-}
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #22222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -601,7 +340,36 @@ header .intro-text .intro-sec-heading {
 
 
 
-  .navbar-default {
+/*.navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+     .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #22222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+*/.navbar-default {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
@@ -631,7 +399,9 @@ header .intro-text .intro-sec-heading {
     }
 }
 
-
+section {
+    padding: 20px 0;
+}
 
 section h2.section-heading {
     margin-top: 0;
@@ -648,15 +418,244 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+@media(min-width:768px) {
     section {
-        padding: 50px 0;
+        padding: 150px 0;
     }
-
-
-    
 }
 
-/*Media Queries for Desktops 
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(254,209,54,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.timeline>li .timeline-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading {
+    text-transform: none;
+}
+
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul {
+    margin-bottom: 0;
+}
+
+@media(min-width:768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
 @media(min-width:992px) {
     .timeline>li {
         min-height: 150px;
@@ -681,9 +680,6 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
-
-
-    
 }
 
 @media(min-width:1200px) {
@@ -736,7 +732,7 @@ aside.clients img {
 
 section#contact {
   background-color: #222;
-   /* background-image: url(../img/map-image.png);
+   /* background-image: url(../img/map-image.png);*/
    margin-left: 0px;
    margin-right:10px;
     background-position: center;
@@ -754,7 +750,6 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
-    
 }
 
 section#contact .form-group input.form-control {
@@ -763,7 +758,6 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
     height: 236px;
-    
 }
 
 section#contact .form-control:focus {
@@ -948,29 +942,17 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
-
-
-@media only screen and (min-device-width : 320px)  {
-
-
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
 header .intro-text {
         padding-top: 150px;
         padding-bottom: 100px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
     }
 
     header .intro-text .intro-lead-in {
@@ -979,119 +961,16 @@ header .intro-text {
         font-size: 30px;
         font-style: italic;
         line-height: 30px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 25px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 25px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-    
-    
- header .intro-text .intro-sec-heading {
-        margin-bottom: 25px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 25px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-    section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 25px;
-}
-}
-
-
-@media screen and (min-device-width: 480px) {
- {
-header {
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/toronto_land.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-   header .intro-text {
-        padding-top: 150px;
-        padding-bottom: 100px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 35px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 80px;
-        font-style: italic;
-        line-height: 80px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    header .intro-text .intro-heading {
-        margin-bottom: 25px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 35px;
-        font-weight: 500;
-        line-height: 35px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-    
-    
- header .intro-text .intro-sec-heading {
-        margin-bottom: 25px;
-        text-transform: uppercase;
+        margin-bottom: 65px;
+        text-transform: lowercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 60px;
-        font-weight: 500;
-        line-height:60px;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+        font-weight: 700;
+        line-height: 60px;
     }
+
 }
-
-
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-    width:100%;
-}
-}
-@media only screen and (min-device-width : 800px) {
- {
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-    width:90%;
-}
-
-
-
-
-
 }
